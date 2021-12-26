@@ -1,0 +1,48 @@
+@import "utilities";
+@import "header";
+
+.main{
+    display:flex;
+    background: url("../images/banner-bg.jpg") no-repeat center center;
+    height:83vh;
+    justify-content: space-around;
+    padding:0 64px 0 64px;
+    img{
+        height:100%;
+    }
+    .main-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 32px;
+        p{
+            color:$white-color;
+            font-size: 1rem;
+        }
+        .text-1{
+            @extend p;
+
+        }
+        .text-2{
+           @extend p;
+            
+        }
+        h1{
+            color: $white-color;
+            font-size: 3rem;
+        }
+        button{
+            width:150px;
+            height:40px;
+            transition: all 1s ease;
+        }
+        button:hover{
+            color:$white-color;
+            background-color:rgba(0,0,0,0);
+            border:1px solid #fff;
+
+
+        }
+    }
+}
+

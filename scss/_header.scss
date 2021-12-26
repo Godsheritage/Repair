@@ -1,0 +1,48 @@
+.extra-text{
+    display:flex;
+    background-color:#222222;
+    height:6vh;
+    // padding-top:5px;
+    // padding-left:16px;
+    // padding-left:16px;
+    // padding-left:16px;
+    padding:8px 100px 16px 100px;
+    justify-content: space-between;
+    
+    ul{
+        display:flex;
+        column-gap: 20px;
+        li{
+            
+            i{
+                color:$white-color;
+            }
+        }
+    }
+    .numbers{
+        display:flex;
+        column-gap: 15px;
+        p{
+            color:$white-color;
+        }
+    } 
+}
+.navbar{
+    background-color:$white-color;
+    height:11vh;
+    display:flex;
+    justify-content: space-between;
+    padding:23px;
+    .logo{
+        
+    }
+    ul{
+        display:flex;
+        li{
+            margin-left:16px;
+            a{
+                color:$black-color;
+            }
+        }
+    }
+}
